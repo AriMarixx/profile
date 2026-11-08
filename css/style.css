@@ -1,0 +1,26 @@
+/* ① body の指定 */
+body {
+    font-family: sans-serif;
+}
+
+/* ② h1 の指定 */
+h1 {
+    color: #333333;
+}
+
+/* ② h2 の指定（下線をつける） */
+h2 {
+    border-bottom: 2px solid #333333;
+    padding-bottom: 4px;
+}
+
+/* ③ 表の罫線指定 */
+table, th, td {
+    border: 1px solid #333333;
+}
+
+/* ④ 自分で決めた class の指定 */
+.favorite {
+    color: #cc3300;
+    font-weight: bold;
+}
