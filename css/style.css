@@ -1,0 +1,28 @@
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+header, footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    border-radius: 999px;
+    color: #333333;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+th, td {
+    padding: 8px 12px;
+}
