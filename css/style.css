@@ -95,11 +95,11 @@ button {
 
 /* 「無冠の帝王」のキャッチコピー */
 .catchcopy {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bold;
     color: #facc15;
     text-align: center;
-    letter-spacing: 6px;
+    letter-spacing: 10px;
     text-shadow: 0 0 15px rgba(250, 204, 21, 0.6);
     margin: 20px 0;
 }
