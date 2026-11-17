@@ -93,14 +93,13 @@ button {
     cursor: pointer;
 }
 
-/* 「無冠の帝王」のキャッチコピー（特大インパクト版） */
 .catchcopy {
-    font-size: 60px;          /* 56px〜64pxくらいでお好みで調整 */
-    font-weight: 900;         /* 一番太い文字にする */
+    font-size: 60px;
+    font-weight: 900;         
     color: #facc15;
     text-align: center;
-    letter-spacing: 12px;     /* 文字の間隔をさらに広げる */
-    text-shadow: 0 4px 20px rgba(250, 204, 21, 0.8); /* 光を強くする */
+    letter-spacing: 12px;     
+    text-shadow: 0 4px 20px rgba(250, 204, 21, 0.8); 
     margin: 24px 0 10px 0;
 }
 
