@@ -6,10 +6,27 @@ body {
     line-height: 1.6;
 }
 
-header, footer {
+header,
+footer {
     background-color: #1e293b;
     padding: 20px;
     text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
 }
 
 nav a {
@@ -20,7 +37,6 @@ nav a {
     color: #0f172a;
     text-decoration: none;
     font-weight: bold;
-    margin: 0 4px;
 }
 
 main {
@@ -58,11 +74,14 @@ table {
     background-color: #1e293b;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #334155;
 }
 
-th, td {
+th,
+td {
     padding: 8px 12px;
     text-align: left;
 }
@@ -95,11 +114,11 @@ button {
 
 .catchcopy {
     font-size: 60px;
-    font-weight: 900;         
+    font-weight: 900;
     color: #facc15;
     text-align: center;
-    letter-spacing: 12px;     
-    text-shadow: 0 4px 20px rgba(250, 204, 21, 0.8); 
+    letter-spacing: 12px;
+    text-shadow: 0 4px 20px rgba(250, 204, 21, 0.8);
     margin: 24px 0 10px 0;
 }
 
@@ -107,5 +126,11 @@ button {
     .catchcopy {
         font-size: 32px;
         letter-spacing: 6px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
     }
 }
